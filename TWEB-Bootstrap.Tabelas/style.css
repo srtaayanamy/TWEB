@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+
+    background-color: #a8dadc;
+    height: 962px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #457b9d;
+    box-shadow: black 1px 2px 5px;
+    width: 400px;
+    height: 400px;
+    border-radius: 25px;
+}
+
+#enviar{
+    width: 90px;
+    height: 30px;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-shadow: black 1px 1px 2px;
+}
+
+label{
+    color: white;
+}
